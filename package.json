@@ -1,0 +1,41 @@
+{
+  "name": "@gpickell/jose-subtle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "babel": {
+    "inputSourceMap": true,
+    "sourceMaps": true
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/src/",
+      "\\.ts$"
+    ],
+    "watchPathIgnorePatterns": [
+      "/node_modules/",
+      "/src/",
+      "\\.ts$"
+    ]
+  },
+  "scripts": {
+    "start": "webpack",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.7",
+    "@types/node": "^14.0.26",
+    "@types/puppeteer": "^3.0.1",
+    "@types/webpack-env": "^1.15.2",
+    "jest": "^26.1.0",
+    "jose": "^1.27.2",
+    "node-webcrypto-ossl": "^2.1.0",
+    "puppeteer": "^5.2.1",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
