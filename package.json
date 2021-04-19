@@ -30,7 +30,7 @@
     "@types/puppeteer": "^3.0.1",
     "@types/webpack-env": "^1.15.2",
     "jest": "^26.1.0",
-    "jose": "^1.27.2",
+    "jose": "^1.28.1",
     "node-webcrypto-ossl": "^2.1.0",
     "puppeteer": "^5.2.1",
     "ts-loader": "^8.0.1",
